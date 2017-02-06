@@ -28,87 +28,88 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
+            this.lblPergunta1 = new System.Windows.Forms.Label();
+            this.rdbResposta1 = new System.Windows.Forms.RadioButton();
+            this.rdbRes2 = new System.Windows.Forms.RadioButton();
+            this.rdbResposta3 = new System.Windows.Forms.RadioButton();
+            this.rdbResposta4 = new System.Windows.Forms.RadioButton();
+            this.btnPP1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lblPergunta1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(77, 55);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Quanto é 2 + 2?";
+            this.lblPergunta1.AutoSize = true;
+            this.lblPergunta1.Location = new System.Drawing.Point(77, 55);
+            this.lblPergunta1.Name = "lblPergunta1";
+            this.lblPergunta1.Size = new System.Drawing.Size(219, 13);
+            this.lblPergunta1.TabIndex = 0;
+            this.lblPergunta1.Text = "Qual é a cor do cavalo branco de napoleão?";
             // 
-            // radioButton1
+            // rdbResposta1
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(80, 124);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(31, 17);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "5";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdbResposta1.AutoSize = true;
+            this.rdbResposta1.Location = new System.Drawing.Point(80, 124);
+            this.rdbResposta1.Name = "rdbResposta1";
+            this.rdbResposta1.Size = new System.Drawing.Size(50, 17);
+            this.rdbResposta1.TabIndex = 1;
+            this.rdbResposta1.TabStop = true;
+            this.rdbResposta1.Text = "Preto";
+            this.rdbResposta1.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rdbRes2
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(80, 158);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(31, 17);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "7";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdbRes2.AutoSize = true;
+            this.rdbRes2.Location = new System.Drawing.Point(80, 158);
+            this.rdbRes2.Name = "rdbRes2";
+            this.rdbRes2.Size = new System.Drawing.Size(59, 17);
+            this.rdbRes2.TabIndex = 2;
+            this.rdbRes2.TabStop = true;
+            this.rdbRes2.Text = "Branco";
+            this.rdbRes2.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rdbResposta3
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(80, 192);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(31, 17);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "3";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rdbResposta3.AutoSize = true;
+            this.rdbResposta3.Location = new System.Drawing.Point(80, 192);
+            this.rdbResposta3.Name = "rdbResposta3";
+            this.rdbResposta3.Size = new System.Drawing.Size(45, 17);
+            this.rdbResposta3.TabIndex = 3;
+            this.rdbResposta3.TabStop = true;
+            this.rdbResposta3.Text = "Azul";
+            this.rdbResposta3.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rdbResposta4
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(80, 228);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(31, 17);
-            this.radioButton4.TabIndex = 4;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "4";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rdbResposta4.AutoSize = true;
+            this.rdbResposta4.Location = new System.Drawing.Point(80, 228);
+            this.rdbResposta4.Name = "rdbResposta4";
+            this.rdbResposta4.Size = new System.Drawing.Size(60, 17);
+            this.rdbResposta4.TabIndex = 4;
+            this.rdbResposta4.TabStop = true;
+            this.rdbResposta4.Text = "Marrom";
+            this.rdbResposta4.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnPP1
             // 
-            this.button1.Location = new System.Drawing.Point(149, 271);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(143, 45);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Próxima pergunta";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPP1.Location = new System.Drawing.Point(149, 271);
+            this.btnPP1.Name = "btnPP1";
+            this.btnPP1.Size = new System.Drawing.Size(143, 45);
+            this.btnPP1.TabIndex = 5;
+            this.btnPP1.Text = "Próxima pergunta";
+            this.btnPP1.UseVisualStyleBackColor = true;
+            this.btnPP1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Pergunta1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(386, 362);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnPP1);
+            this.Controls.Add(this.rdbResposta4);
+            this.Controls.Add(this.rdbResposta3);
+            this.Controls.Add(this.rdbRes2);
+            this.Controls.Add(this.rdbResposta1);
+            this.Controls.Add(this.lblPergunta1);
             this.Name = "Pergunta1";
             this.Text = "Pergunta1";
             this.ResumeLayout(false);
@@ -118,11 +119,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblPergunta1;
+        private System.Windows.Forms.RadioButton rdbResposta1;
+        private System.Windows.Forms.RadioButton rdbRes2;
+        private System.Windows.Forms.RadioButton rdbResposta3;
+        private System.Windows.Forms.RadioButton rdbResposta4;
+        private System.Windows.Forms.Button btnPP1;
     }
 }
