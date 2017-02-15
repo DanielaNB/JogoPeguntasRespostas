@@ -33,7 +33,7 @@
             this.rdbRes2 = new System.Windows.Forms.RadioButton();
             this.rdbResposta3 = new System.Windows.Forms.RadioButton();
             this.rdbResposta4 = new System.Windows.Forms.RadioButton();
-            this.btnPP1 = new System.Windows.Forms.Button();
+            this.btnPlay = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblPergunta1
@@ -89,22 +89,27 @@
             this.rdbResposta4.Text = "Marrom";
             this.rdbResposta4.UseVisualStyleBackColor = true;
             // 
-            // btnPP1
+            // btnPlay
             // 
-            this.btnPP1.Location = new System.Drawing.Point(149, 271);
-            this.btnPP1.Name = "btnPP1";
-            this.btnPP1.Size = new System.Drawing.Size(143, 45);
-            this.btnPP1.TabIndex = 5;
-            this.btnPP1.Text = "Próxima pergunta";
-            this.btnPP1.UseVisualStyleBackColor = true;
-            this.btnPP1.Click += new System.EventHandler(this.button1_Click);
+            this.btnPlay.BackColor = System.Drawing.Color.Red;
+            this.btnPlay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnPlay.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlay.ForeColor = System.Drawing.Color.Black;
+            this.btnPlay.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPlay.Location = new System.Drawing.Point(12, 297);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(362, 53);
+            this.btnPlay.TabIndex = 6;
+            this.btnPlay.Text = "PRÓXIMA PERGUNTA";
+            this.btnPlay.UseVisualStyleBackColor = false;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // Pergunta1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(386, 362);
-            this.Controls.Add(this.btnPP1);
+            this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.rdbResposta4);
             this.Controls.Add(this.rdbResposta3);
             this.Controls.Add(this.rdbRes2);
@@ -125,6 +130,6 @@
         private System.Windows.Forms.RadioButton rdbRes2;
         private System.Windows.Forms.RadioButton rdbResposta3;
         private System.Windows.Forms.RadioButton rdbResposta4;
-        private System.Windows.Forms.Button btnPP1;
+        private System.Windows.Forms.Button btnPlay;
     }
 }
